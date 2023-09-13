@@ -26,9 +26,9 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 
 ![нет доступа по имени auth-db](https://github.com/ALEMOLOKOV/14.5_K8S_Aleksandr_Molokov/assets/109212419/383ef9ad-2e48-42a7-95d0-f0adbd4db205)
 
-Так как поды находяться в разных неймспейсах то при обращении нужно испольховать полное доменное(FQDN) имя сервика.
+Так как поды находяться в разных неймспейсах то при обращении нужно испольховать полное доменное(FQDN) имя сервиcа.
 В заданном деплойменте приложение web-consumer обращалось по имени сервиса auth-db, в результате сервис был недоступен.
-Необходимо испольховать полное имя - auth-db.data.svc.cluster.local.
+Необходимо использовать полное имя сервиса - auth-db.data.svc.cluster.local.
 
 #### Выдержка из статьи про namespaces
 
