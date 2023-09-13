@@ -37,15 +37,15 @@ kubectl apply -f https://raw.githubusercontent.com/netology-code/kuber-homeworks
 
 #### Я разбил заданный файл на 3 отдельных файла
 
-![Deployment-web]()
+![Deployment-web](https://github.com/ALEMOLOKOV/14.5_K8S_Aleksandr_Molokov/blob/765346c7deb1d3005df6b529ac753ea955a87e65/deployment-web.yaml)
 
-![Deployment-db]()
+![Deployment-db](https://github.com/ALEMOLOKOV/14.5_K8S_Aleksandr_Molokov/blob/765346c7deb1d3005df6b529ac753ea955a87e65/deployment-db.yaml)
 
-![Service-db]()
+![Service-db](https://github.com/ALEMOLOKOV/14.5_K8S_Aleksandr_Molokov/blob/765346c7deb1d3005df6b529ac753ea955a87e65/service-db.yaml)
 
 #### Результат после внесения правок в deployment
 
-#### Статус объектов после
+#### Статус объектов после внесения изменений
 
 ![все готово](https://github.com/ALEMOLOKOV/14.5_K8S_Aleksandr_Molokov/assets/109212419/3b97f9cb-cbbc-471c-82b7-db562e9c8a22)
 
